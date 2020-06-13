@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "73688466682",
+    "firebase_url": "https://whackamole-5b4e4.firebaseio.com",
+    "project_id": "whackamole-5b4e4",
+    "storage_bucket": "whackamole-5b4e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73688466682:android:5a19ba2edbc9006db33543",
+        "android_client_info": {
+          "package_name": "whackamole.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73688466682-ij4j3ipgf7gsvoqpp1cdqr9lmso4l43k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "whackamole.com",
+            "certificate_hash": "d7bb96502aea2feee6eae0fa562ae220070513b8"
+          }
+        },
+        {
+          "client_id": "73688466682-kh07d513onvedoudl3f94mhmlbehmad5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLP6xJrMfMCEF_GY6BAobo0dK-D_z81GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73688466682-kh07d513onvedoudl3f94mhmlbehmad5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
