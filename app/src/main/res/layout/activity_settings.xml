@@ -35,7 +35,8 @@
             android:layout_height="wrap_content"
             android:text="@string/on"
             android:textSize="26sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="onClickSoundOn"/>
 
         <RadioButton
             android:id="@+id/mute"
@@ -43,7 +44,8 @@
             android:layout_height="wrap_content"
             android:text="@string/mute"
             android:textSize="26sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="onClickSoundOff"/>
     </RadioGroup>
 
     <RadioGroup
@@ -63,7 +65,8 @@
             android:layout_height="wrap_content"
             android:text="@string/easy"
             android:textSize="26sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="onClickEasy"/>
 
         <RadioButton
             android:id="@+id/normal"
@@ -71,7 +74,8 @@
             android:layout_height="wrap_content"
             android:text="@string/normal"
             android:textSize="26sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="onClickNormal"/>
 
         <RadioButton
             android:id="@+id/hard"
@@ -79,7 +83,8 @@
             android:layout_height="wrap_content"
             android:text="@string/hard"
             android:textSize="26sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="onClickHard"/>
     </RadioGroup>
 
     <RadioGroup
@@ -87,8 +92,8 @@
         android:layout_width="311dp"
         android:layout_height="114dp"
         android:layout_marginTop="90dp"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:checkedButton="@id/savana"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,15 +103,17 @@
             android:id="@+id/savana"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClickSavana"
             android:text="@string/savana"
             android:textSize="26sp"
             android:textStyle="bold" />
 
         <RadioButton
-            android:id="@+id/gym"
+            android:id="@+id/forest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/gym"
+            android:onClick="onClickForest"
+            android:text="@string/forest"
             android:textSize="26sp"
             android:textStyle="bold" />
 
@@ -114,6 +121,7 @@
             android:id="@+id/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClickWhite"
             android:text="@string/white"
             android:textSize="26sp"
             android:textStyle="bold" />
@@ -152,9 +160,9 @@
         android:id="@+id/backgroundText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="250dp"
-        android:layout_marginRight="250dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginRight="184dp"
         android:text="@string/background"
         android:textColor="@color/black"
         android:textSize="26sp"
