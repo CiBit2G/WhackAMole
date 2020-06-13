@@ -28,7 +28,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/full_instructions"
         android:textColor="#050505"
-        android:textSize="26sp"
+        android:textSize="26dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
